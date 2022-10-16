@@ -1,0 +1,158 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: rgb(0, 84, 185);
+	text-decoration: none !important;
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.icon {
+	width: 1em;
+	margin: 0 0.5em;
+}
+
+.search {
+	height: 100px;
+	width: 100%;
+	max-width: 600px;
+}
+
+
+table {
+	text-align: left;
+	font-weight: normal;
+}
+
+th {
+	font-weight: normal;
+}
+
+td:first-child {
+	width: 30%;
+}
+
+th, td {
+	padding: 10px 15px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.footer-nav {
+	display: flex;
+	gap: 24px;
+	height: 30px;
+	width: 600px;
+}
+
+.foot-link {
+	white-space: nowrap;
+	color: #999;
+	font-size: 14px;
+}
+
+.yandex-logo {
+	background-image: url("//upload.wikimedia.org/wikipedia/commons/f/f1/Yandex_logo_2021_Russian.svg");
+	margin: 10px;
+	width: 100px;
+	height: 30px;
+	background-repeat: no-repeat;
+}
+
+.search {
+	position: relative;
+	background: #fc0;
+	border-radius: .625rem;
+	display: flex;
+	width: 100%;
+	max-height: 40px;
+
+}
+
+.search_block {
+	display: flex;
+	position: relative;
+	white-space: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.search_input {
+	width: 85%;
+	height: 85%;
+	margin-left: 2px;
+	margin-top: 2px;
+	font-size: 20px;
+	padding-left: 10px;
+	border-radius: .550rem .375rem .375rem .550rem;
+	border: 0 solid transparent;
+}
+
+
+input::placeholder {
+	font-size: 16px;
+}
+
+.search_button {
+	font-size: 100%;
+	background: #fc0;
+	box-sizing: border-box;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	margin-left: 10px;
+}
+
+.logo {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin: 0 0.4em;
+	vertical-align: text-bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.logo-market {
+	background-image: url("//yastatic.net/s3/home/services/all/svg/market_new2022.svg");
+}
+
+.logo-plus {
+	background-image: url("//yastatic.net/s3/home/services/all/svg/plus1.svg");
+}
+
+.logo-praktikum {
+	background-image: url("//yastatic.net/s3/home/services/all/svg/praktikum0.svg");
+}
+
+.logo-music {
+	background-image: url("//yastatic.net/s3/home/services/all/svg/music_new.svg");
+}
+
+.logo-kinopoisk {
+	background-image: url("//yastatic.net/s3/home/services/all/svg/kinopoisk_2021_v2.svg");
+}
+
+
+.logo-edadeal {
+	background-image: url("//yastatic.net/s3/home/services/all/svg/edadeal_new.svg");
+}
+
+.logo-toloka {
+	background-image: url("//yastatic.net/s3/home/services/all/svg/toloka1.svg");
+}
+
