@@ -1,2 +1,1 @@
-# yandex-frontend-intensive
-My Yandex Frontend Intensive homework
+# My Yandex Frontend Intensive homework
