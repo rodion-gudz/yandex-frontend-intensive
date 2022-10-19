@@ -4,48 +4,64 @@
 	<meta charset="UTF-8">
 	<title>404</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 <body>
 
-<main class="box">
-	<div>
-		<div class="search_block">
+<div class="layout">
+	<main>
+		<section class="search_block">
 			<span class="yandex-logo"></span>
 			<label class="search">
 				<input class="search_input" type="text" placeholder="Найдется всё">
 				<button class="search_button" type="submit">Найти</button>
 			</label>
-		</div>
+		</section>
 
-		<h2>Ошибка 404. Нет такой страницы</h2>
-		<p>Если вы считаете, что страницы нет по нашей вине, <a target="_blank" href="//yandex.ru/support/not-found">напишите нам</a>.</p>
+		<header>
+			<h2 class="header_title">Ошибка 404. Нет такой страницы</h2>
+			<p>Если вы считаете, что страницы нет по нашей вине,
+				<a target="_blank" href="//yandex.ru/support/not-found" class="link">напишите нам</a>.</p>
+		</header>
 
-		<table>
-			<tr>
-				<th><a target="_blank" href="//ya.ru"><span class="logo logo-market"></span>Маркет</a> — смартфоны Huawei</th>
-				<th><a target="_blank" href="//ya.ru"><span class="logo logo-praktikum"></span>Практикум</a> — стать аналитиком</th>
-			</tr>
-			<tr>
-				<th><a target="_blank" href="//ya.ru"><span class="logo logo-plus"></span>Плюс</a> — теперь и для семьи</th>
-				<th><a target="_blank" href="//ya.ru"><span class="logo logo-edadeal"></span>Едадил</a> — скидки в супермаркетах</th>
-			</tr>
-			<tr>
-				<th><a target="_blank" href="//ya.ru"><span class="logo logo-music"></span>Музыка</a> — подкасты где угодно</th>
-				<th><a target="_blank" href="//ya.ru"><span class="logo logo-toloka"></span>Толока</a> — удалённый заработок</th>
-			</tr>
-			<tr>
-				<th><a target="_blank" href="//ya.ru"><span class="logo logo-kinopoisk"></span>Кинопоиск</a> — «Нулевой пациент»</th>
-			</tr>
-		</table>
-	</div>
-</main>
+
+		<ul class="services_list">
+			<li class="service">
+				<a target="_blank" href="//ya.ru" class="link">
+					<span class="logo logo-market"></span>Маркет</a> — смартфоны Huawei
+			</li>
+			<li class="service">
+				<a target="_blank" href="//ya.ru" class="link">
+					<span class="logo logo-plus"></span>Плюс</a> — теперь и для семьи
+			</li>
+			<li class="service">
+				<a target="_blank" href="//ya.ru" class="link">
+					<span class="logo logo-music"></span>Музыка</a> — подкасты где угодно
+			</li>
+			<li class="service">
+				<a target="_blank" href="//ya.ru" class="link">
+					<span class="logo logo-praktikum"></span>Практикум</a> — стать аналитиком
+			</li>
+			<li class="service">
+				<a target="_blank" href="//ya.ru" class="link">
+					<span class="logo logo-edadeal"></span>Едадил</a> — скидки в супермаркетах
+			</li>
+			<li class="service">
+				<a target="_blank" href="//ya.ru" class="link">
+					<span class="logo logo-toloka"></span>Толока</a> — удалённый заработок
+			</li>
+			<li class="service">
+				<a target="_blank" href="//ya.ru" class="link">
+					<span class="logo logo-kinopoisk"></span>Кинопоиск</a> — «Нулевой пациент»
+			</li>
+		</ul>
+	</main>
+</div>
 
 <footer class="footer">
 	<nav class="footer-nav">
-		<a class="foot-link" target="_blank" href="//yandex.ru/company/">Компания</a>
-		<a class="foot-link" target="_blank" href="//yandex.com/company/">About</a>
-		<a class="foot-link" target="_blank" href="//ya.ru/">&copy; Яндекс</a>
+		<a class="link foot-link" target="_blank" href="//yandex.ru/company/">Компания</a>
+		<a class="link foot-link" target="_blank" href="//yandex.com/company/">About</a>
+		<a class="link foot-link" target="_blank" href="//ya.ru/">&copy; Яндекс</a>
 	</nav>
 </footer>
 

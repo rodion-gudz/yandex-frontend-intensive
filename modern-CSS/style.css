@@ -1,13 +1,28 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
 }
 
-a {
+.link {
 	color: rgb(0, 84, 185);
-	text-decoration: none !important;
+	text-decoration: none;
 }
 
-.box {
+.services_list {
+	columns: 2;
+	list-style-type: none;
+	padding: 0;
+}
+
+.service {
+	padding: 0.4em;
+}
+
+.header_title {
+	font-weight: 400;
+}
+
+.layout {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -23,24 +38,6 @@ a {
 	height: 100px;
 	width: 100%;
 	max-width: 600px;
-}
-
-
-table {
-	text-align: left;
-	font-weight: normal;
-}
-
-th {
-	font-weight: normal;
-}
-
-td:first-child {
-	width: 30%;
-}
-
-th, td {
-	padding: 10px 15px;
 }
 
 .footer {
@@ -103,19 +100,25 @@ th, td {
 }
 
 
-input::placeholder {
+.search_input::placeholder {
 	font-size: 16px;
 }
 
 .search_button {
+	width: 15%;
 	font-size: 100%;
+	border-radius: 0 .625rem .625rem 0;
 	background: #fc0;
 	box-sizing: border-box;
-	padding: 0;
+	margin: 0.1em;
 	border: 0;
-	border-radius: 0;
-	margin-left: 10px;
+	text-align: center;
 }
+
+.search_button:hover {
+	background: #f5c400;
+}
+
 
 .logo {
 	display: inline-block;
@@ -146,7 +149,6 @@ input::placeholder {
 .logo-kinopoisk {
 	background-image: url("//yastatic.net/s3/home/services/all/svg/kinopoisk_2021_v2.svg");
 }
-
 
 .logo-edadeal {
 	background-image: url("//yastatic.net/s3/home/services/all/svg/edadeal_new.svg");
