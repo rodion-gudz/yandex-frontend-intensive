@@ -1,7 +1,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
-	overflow-x:hidden;
+	overflow-x: hidden;
 }
 
 .link {
@@ -9,7 +9,7 @@ body {
 	text-decoration: none;
 }
 
-.services_list {
+.services-list {
 	columns: 2;
 	list-style-type: none;
 	padding: 0;
@@ -19,36 +19,36 @@ body {
 	padding: 0.4em;
 }
 
-.header_title {
+.header-title {
 	font-weight: 400;
 }
 
 .layout {
-	display: flex;
-	justify-content: center;
 	align-items: center;
+	display: flex;
 	height: 100vh;
+	justify-content: center;
 }
 
 .icon {
-	width: 1em;
 	margin: 0 0.5em;
+	width: 1em;
 }
 
-.search {
+.search-content {
 	height: 100px;
-	width: 100%;
 	max-width: 600px;
+	width: 100%;
 }
 
 .footer {
-	position: fixed;
+	align-items: center;
+	background-color: white;
 	bottom: 0;
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	position: fixed;
 	width: 100%;
-	background-color: white;
 }
 
 .footer-nav {
@@ -59,78 +59,77 @@ body {
 }
 
 .foot-link {
-	white-space: nowrap;
 	color: #999;
 	font-size: 14px;
+	white-space: nowrap;
 }
 
-.yandex-logo {
+.search-block__yandex-logo {
 	background-image: url("//upload.wikimedia.org/wikipedia/commons/f/f1/Yandex_logo_2021_Russian.svg");
+	background-repeat: no-repeat;
+	height: 30px;
 	margin: 10px;
 	width: 100px;
-	height: 30px;
-	background-repeat: no-repeat;
 }
 
-.search {
-	position: relative;
+.search-content {
 	background: #fc0;
 	border-radius: .625rem;
 	display: flex;
-	width: 100%;
 	max-height: 40px;
-
+	position: relative;
+	width: 100%;
 }
 
-.search_block {
+.search-form {
+	align-items: center;
 	display: flex;
+	justify-content: center;
 	position: relative;
 	white-space: nowrap;
-	justify-content: center;
-	align-items: center;
 }
 
-.search_input {
-	width: 85%;
+.search-content__input {
+	border: 0 solid transparent;
+	border-radius: .550rem .375rem .375rem .550rem;
+	font-size: 20px;
 	height: 85%;
 	margin-left: 2px;
 	margin-top: 2px;
-	font-size: 20px;
 	padding-left: 10px;
-	border-radius: .550rem .375rem .375rem .550rem;
-	border: 0 solid transparent;
+	width: 85%;
 }
 
 
-.search_input::placeholder {
+.search-content__input::placeholder {
 	font-size: 16px;
 }
 
-.search_button {
-	width: 15%;
-	font-size: 100%;
-	border-radius: 0 .625rem .625rem 0;
+.search-content__button {
 	background: #fc0;
-	box-sizing: border-box;
-	margin: 0.1em;
 	border: 0;
-	text-align: center;
+	border-radius: 0 .625rem .625rem 0;
+	box-sizing: border-box;
 	cursor: pointer;
+	font-size: 100%;
+	margin: 0.1em;
+	text-align: center;
+	width: 15%;
 }
 
-.search_button:hover {
+.search-content__button:hover {
 	background: #f5c400;
 }
 
 
 .logo {
+	background-repeat: no-repeat;
+	background-size: contain;
 	display: inline-block;
-	width: 18px;
 	height: 18px;
 	margin: 0 0.4em;
 	vertical-align: text-bottom;
-	background-repeat: no-repeat;
-	background-size: contain;
+	width: 18px;
 }
 
 .logo-market {
