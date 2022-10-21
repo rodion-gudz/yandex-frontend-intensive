@@ -113,6 +113,7 @@ body {
 	margin: 0.1em;
 	border: 0;
 	text-align: center;
+	cursor: pointer;
 }
 
 .search_button:hover {
